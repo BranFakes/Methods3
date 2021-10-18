@@ -13,7 +13,7 @@ namespace Methods3
         static void Loop()
         {
             count = count + 1;
-            Console.WriteLine("Loopping" + count);
+            Console.WriteLine("Loopping" + count); //counts by number how many loops it did.
             Loop(); //Infinate Loop
         }
         static void Main(string[] args)
